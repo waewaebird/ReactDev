@@ -8,6 +8,8 @@ import StateasaSnapshot from "./AddingInteractivity/StateasaSnapshot/StateasaSna
 import QueueingaSeriesofStateUpdates from "./AddingInteractivity/QueueingaSeriesofStateUpdates/QueueingaSeriesofStateUpdates";
 import UpdatingObjectsinState from "./AddingInteractivity/UpdatingObjectsinState/UpdatingObjectsinState";
 import UpdatingArraysinState from "./AddingInteractivity/UpdatingArraysinState/UpdatingArraysinState";
+import ReactingtoInputwithState from './ManagingState/ReactingtoInputwithState/ReactingtoInputwithState';
+import ChoosingtheStateStructure from './ManagingState/ChoosingtheStateStructure/ChoosingtheStateStructure';
 import ScalingUpwithReducerandContext from "./ManagingState/ScalingUpwithReducerandContext/ScalingUpwithReducerandContext";
 import PassingDataDeeplywithContext from "./ManagingState/PassingDataDeeplywithContext/PassingDataDeeplywithContext";
 import ExtractingStateLogicintoaReducer from "./ManagingState/ExtractingStateLogicintoaReducer/ExtractingStateLogicintoaReducer";
@@ -27,6 +29,8 @@ function App() {
         <Route path="/QueueingaSeriesofStateUpdates" element={<QueueingaSeriesofStateUpdates />} />
         <Route path="/UpdatingObjectsinState" element={<UpdatingObjectsinState />} />
         <Route path="/UpdatingArraysinState" element={<UpdatingArraysinState />} />
+        <Route path="/ReactingtoInputwithState" element={<ReactingtoInputwithState />} />
+        <Route path="/ChoosingtheStateStructure" element={<ChoosingtheStateStructure />} />
         <Route path="/ScalingUpwithReducerandContext" element={<ScalingUpwithReducerandContext />} />
         <Route path="/PassingDataDeeplywithContext" element={<PassingDataDeeplywithContext />} />
         <Route path="/ExtractingStateLogicintoaReducer" element={<ExtractingStateLogicintoaReducer />} />
